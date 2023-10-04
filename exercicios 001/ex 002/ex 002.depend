@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1696376402 source:c:\users\pabll\onedrive\Área de trabalho\sistema-de-informação\pratica-de-programacao-i\exercicios 001\ex 002\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+
