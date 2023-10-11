@@ -13,14 +13,18 @@ int main()
     os impostos 45%. Escrever um algoritmo que leia o custo de fábrica de um carro
     e informe o custo ao consumidor do mesmo.*/
 
-    float valor_fabrica, percen_distrib, impostos;
+    float valor_fabrica, percen_distrib, impostos, valor_final;
 
-    printf("Digite o valor de fabrica do carro a ser comprado: \n");
+    printf("digite o custo de fabrica de um carro novo: \n");
     scanf("%f", &valor_fabrica);
 
-    impostos = (valor_fabrica * 0,45)/100;
-    percen_distrib = (impostos + valor_fabrica * 0,28)/100;
+    impostos = (valor_fabrica * 0.45);
 
-    printf("O valor do carro a ser comprado: %.2f\n",percen_distrib + valor_fabrica);
+    percen_distrib = (valor_fabrica * 0.28);
+
+    valor_final = valor_fabrica+impostos+percen_distrib;
+
+    printf("\nO valor final do carro é: R$ %.2f\n", valor_final);
+
 
 }
